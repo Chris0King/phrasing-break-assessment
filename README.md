@@ -22,7 +22,14 @@ Score range: 1-3
 - 2: the phrase break is fair and can to be improved
 - 1: the phrase break is wrong
 
-## Sentence distribution
+## Dataset Statistics
+### Score distribution
+The statistics of collected corpus is listed in following table.
+| Dataset      | Poor | Fair | Great | Total |
+| ------------ | ---- | ---- | ----- | ----- |
+| Overall      | 21   | 157  | 570   | 748   |
+| Fine-grained | 143  | 675  | 9888  | 10706 |
+### Sentence distribution
 We collected 800 utterances of 18 different sentences of various lengths, and the detail distribution is shown in the following table. 
 | No.   | Sentence                                                                                                                    | Num |
 | ----- | --------------------------------------------------------------------------------------------------------------------------- | --- |
@@ -44,7 +51,7 @@ We collected 800 utterances of 18 different sentences of various lengths, and th
 | 16    | But the mouse finally got out of her mouth and ran away since she could not bite it.                                        | 49  |
 | 17    | Then the old woman became very angry at the cat and began to hit her for she had not killed the mouse.                      | 29  |
 | 18    | Until the fox thought highly of the crow's beautiful voice, the crow felt quite proud and finally opened his mouth to sing. | 39  |
-| total | 748|
+| total | 748                                                                                                                         |
 
 
 ## Data structure
