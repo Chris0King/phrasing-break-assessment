@@ -1,6 +1,6 @@
 # A non-native English corpus for phrasing-break-assessment
 ## Introduction
-This corpus aims to provide a free public dataset for the phrasing break assessment task. we collected 748 audio samples from Chinese ESL learners. Then three linguists are invited to assess them with overall performance on phrase break and each individual phrasing breaks ranging from 1 (Poor), 2 (Fair), and 3 (Great). 
+This corpus aims to provide a free public dataset for the phrasing break assessment task. we collected 800 audio samples from Chinese ESL learners. Then two linguists are invited to assess them with overall performance on phrasing break and each individual phrasing break ranging from 1 (Poor), 2 (Fair), and 3 (Great). If two experts' opinions are inconsistent, an extra linguist is asked to do the final scoring. 
 
 ## The scoring metric
 The linguists score at two levels: overall-sentence-level and single-break-level.
@@ -10,9 +10,9 @@ Assess the overall performance on phrase breaks in the sentence.
 
 Score range: 1-3
 
-- 3: all phrase breaks in the sentence are correct
-- 2: most of phrase breaks in the sentence are correct but some need to be improved
-- 1: most of phrase breaks in the sentence are incorrect
+- 3: the utterance of the sentence is fluent and all phrase breaks are reasonable
+- 2: the utterance of the sentence is fluent and there is no pause in all phrase break 
+- 1: some phrase breaks in the sentence are inappropriate which influence the understanding of sentence
 ### single-break-level
 Assess each individual phrasing breaks in the sentence.
 
@@ -30,7 +30,7 @@ The statistics of collected corpus is listed in following table.
 | Overall      | 21   | 136  | 643   | 800   |
 | Fine-grained | 129  | 644  | 10797 | 11570 |
 ### Sentence distribution
-We collected 800 utterances of 18 different sentences of various lengths, and the detail distribution is shown in the following table. 
+We collected 800 utterances of 19 different sentences of various lengths, and the detail distribution is shown in the following table. 
 | No.   | Sentence                                                                                                                    | Num |
 | ----- | --------------------------------------------------------------------------------------------------------------------------- | --- |
 | 1     | Their poor parents were just starving as usual.                                                                             | 31  |
@@ -52,7 +52,7 @@ We collected 800 utterances of 18 different sentences of various lengths, and th
 | 17    | Then the old woman became very angry at the cat and began to hit her for she had not killed the mouse.                      | 30  |
 | 18    | Until the fox thought highly of the crow's beautiful voice, the crow felt quite proud and finally opened his mouth to sing. | 36  |
 | 19    | "Dad!" he puffed, "is it true that an apple a day keeps the doctor away?"                                                   | 41  |
-| total | 748                                                                                                                         |
+| total | 800                                                                                                                         |
 
 
 ## Data structure
