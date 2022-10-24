@@ -3,7 +3,7 @@
 This corpus aims to provide a free public dataset for the phrasing break assessment task. we collected 800 audio samples from Chinese ESL learners. Then two linguists are invited to assess them with overall performance on phrasing break and each individual phrasing break ranging from 1 (Poor), 2 (Fair), and 3 (Great). If two experts' opinions are inconsistent, an extra linguist is asked to do the final scoring. 
 
 ## The scoring metric
-The linguists score at two levels: overall-sentence-level and single-break-level.
+The linguists score at two levels: overall-sentence-level and single-break-level. It is worth mentioning that the scoring ignores the words pronouncing accuracy.
 
 ### overall-sentence-level
 Assess the overall performance on phrase breaks in the sentence.
@@ -106,9 +106,9 @@ The following tree shows the file structure of this corpus:
 ```
 The `wavs` folder contains our all wavs resource and match the `metadata.csv`.
 
-The `resource` folder contains the scores from three linguists label A, B and C according to three subfolders.
+The `resource` folder contains the scores from three linguists label A, B and C according to three subfolders. A and B are invited to assess them. If two experts' opinions are inconsistent, an extra linguist C is asked to do the final scoring.
 
-The `cross-validation-testset` folder contains trainset and testset in fine-tune step.
+The `cross-validation-testset` folder contains trainset, devset and testset in fine-tune step.
 
 ## Citation
 Please cite our paper if you find this work useful:
