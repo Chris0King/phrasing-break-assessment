@@ -11,8 +11,8 @@ Assess the overall performance on phrase breaks in the sentence.
 Score range: 1-3
 
 - 3: the utterance of the sentence is fluent and all phrase breaks are reasonable
-- 2: the utterance of the sentence is fluent and there is no pause in all phrase break 
-- 1: some phrase breaks in the sentence are inappropriate which influence the understanding of sentence
+- 2: the utterance of the sentence is fluent and there is no pause in all phrase breaks
+- 1: some phrase breaks in the sentence are inappropriate which influence the understanding of the sentence
 ### single-break-level
 Assess each individual phrasing breaks in the sentence.
 
@@ -60,6 +60,7 @@ We collected 800 utterances of 19 different sentences of various lengths, and th
 The following tree shows the file structure of this corpus:
 ```
 ├───cross-validation-testset
+│   ├───testset.csv
 │   ├───coarse_grain_res.csv
 │   ├───fine_grain_res.csv
 │   ├───coarse_grain_set
@@ -68,6 +69,11 @@ The following tree shows the file structure of this corpus:
 │   │       coarse_grain_testset_2.csv
 │   │       coarse_grain_testset_3.csv
 │   │       coarse_grain_testset_4.csv
+│   │       coarse_grain_devset_0.csv
+│   │       coarse_grain_devset_1.csv
+│   │       coarse_grain_devset_2.csv
+│   │       coarse_grain_devset_3.csv
+│   │       coarse_grain_devset_4.csv
 │   │       coarse_grain_trainset_0.csv
 │   │       coarse_grain_trainset_1.csv
 │   │       coarse_grain_trainset_2.csv
@@ -80,6 +86,11 @@ The following tree shows the file structure of this corpus:
 │           fine_grain_testset_2.csv
 │           fine_grain_testset_3.csv
 │           fine_grain_testset_4.csv
+│           fine_grain_devset_0.csv
+│           fine_grain_devset_1.csv
+│           fine_grain_devset_2.csv
+│           fine_grain_devset_3.csv
+│           fine_grain_devset_4.csv
 │           fine_grain_trainset_0.csv
 │           fine_grain_trainset_1.csv
 │           fine_grain_trainset_2.csv
