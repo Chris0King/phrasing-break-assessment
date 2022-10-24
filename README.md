@@ -27,30 +27,31 @@ Score range: 1-3
 The statistics of collected corpus is listed in following table.
 | Dataset      | Poor | Fair | Great | Total |
 | ------------ | ---- | ---- | ----- | ----- |
-| Overall      | 21   | 157  | 570   | 748   |
-| Fine-grained | 143  | 675  | 9888  | 10706 |
+| Overall      | 21   | 136  | 643   | 800   |
+| Fine-grained | 129  | 644  | 10797 | 11570 |
 ### Sentence distribution
 We collected 800 utterances of 18 different sentences of various lengths, and the detail distribution is shown in the following table. 
 | No.   | Sentence                                                                                                                    | Num |
 | ----- | --------------------------------------------------------------------------------------------------------------------------- | --- |
-| 1     | Their poor parents were just starving as usual.                                                                             | 33  |
-| 2     | One afternoon, he thought up a good plan to have fun.                                                                       | 42  |
-| 3     | Cinderella danced so joyfully that she forgot the time.                                                                     | 32  |
-| 4     | They made a choice and went out in search of food.                                                                          | 43  |
-| 5     | Plenty of complicated thoughts about the rainbow have been formed.                                                          | 36  |
-| 6     | The following week, the same policeman sees the same man with the tiger again.                                              | 54  |
+| 1     | Their poor parents were just starving as usual.                                                                             | 31  |
+| 2     | One afternoon, he thought up a good plan to have fun.                                                                       | 40  |
+| 3     | Cinderella danced so joyfully that she forgot the time.                                                                     | 31  |
+| 4     | They made a choice and went out in search of food.                                                                          | 42  |
+| 5     | Plenty of complicated thoughts about the rainbow have been formed.                                                          | 32  |
+| 6     | The following week, the same policeman sees the same man with the tiger again.                                              | 52  |
 | 7     | His mother noticed his left shoe was on his right foot.                                                                     | 28  |
-| 8     | One spring day some naughty boys were playing near a pond.                                                                  | 41  |
-| 9     | Our class is going to put on a show on may seventh.                                                                         | 37  |
-| 10    | Now, can you give me a few words to describe the body shape of this girl?                                                   | 48  |
-| 11    | The man replied, "i did we had such a good time we are going to the beach this weekend!"                                    | 62  |
-| 12    | His wife says, "no problem but i have to find all the money you have hidden from me.                                        | 50  |
-| 13    | There was once a poor boy, and he watched his sheep in the fields next to a dark forest.                                    | 42  |
-| 14    | The frogs in the pond were very afraid of the children because the stones killed some of them.                              | 39  |
-| 15    | One day a crow stood on a branch near his nest and felt very happy with the meat in his mouth.                              | 44  |
-| 16    | But the mouse finally got out of her mouth and ran away since she could not bite it.                                        | 49  |
-| 17    | Then the old woman became very angry at the cat and began to hit her for she had not killed the mouse.                      | 29  |
-| 18    | Until the fox thought highly of the crow's beautiful voice, the crow felt quite proud and finally opened his mouth to sing. | 39  |
+| 8     | One spring day some naughty boys were playing near a pond.                                                                  | 42  |
+| 9     | Our class is going to put on a show on may seventh.                                                                         | 35  |
+| 10    | Now, can you give me a few words to describe the body shape of this girl?                                                   | 55  |
+| 11    | The man replied, "i did we had such a good time we are going to the beach this weekend!"                                    | 63  |
+| 12    | His wife says, "no problem but i have to find all the money you have hidden from me.                                        | 44  |
+| 13    | There was once a poor boy, and he watched his sheep in the fields next to a dark forest.                                    | 39  |
+| 14    | The frogs in the pond were very afraid of the children because the stones killed some of them.                              | 57  |
+| 15    | One day a crow stood on a branch near his nest and felt very happy with the meat in his mouth.                              | 56  |
+| 16    | But the mouse finally got out of her mouth and ran away since she could not bite it.                                        | 45  |
+| 17    | Then the old woman became very angry at the cat and began to hit her for she had not killed the mouse.                      | 30  |
+| 18    | Until the fox thought highly of the crow's beautiful voice, the crow felt quite proud and finally opened his mouth to sing. | 36  |
+| 19    | "Dad!" he puffed, "is it true that an apple a day keeps the doctor away?"                                                   | 41  |
 | total | 748                                                                                                                         |
 
 
