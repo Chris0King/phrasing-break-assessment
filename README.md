@@ -54,9 +54,19 @@ We collected 800 utterances of 19 different sentences of various lengths, and th
 | 19    | "Dad!" he puffed, "is it true that an apple a day keeps the doctor away?"                                                   | 41  |
 | total | 800                                                                                                                         |
 
+### Confusion Matrix
+To verified Against-TTS approach’s
+limits on handling multiple possible phrase breaks, we compare the confusion matrix of Against-TTS and #Break-BERT on overall assessment and fine-grained assessment.
 
+- confusion matrix of Against-TTS on overall assessment\
+  ![Against-TTS on overall](/resource/con_matrix_1.png)
+- confusion matrix of #Break-BERT on overall assessment
+  ![#Break-BERT on overall](resource/con_matrix_2.png)
+- confusion matrix of Against-TTS on fine-grained assessment
+  ![Against-TTS on fine-grained](resource/con_matrix_3.png)
+- confusion matrix of #Break-BERT on fine-grained assessment
+  ![#Break-BERT on fine-grained](resource/con_matrix_4.png)
 ## Data structure
-
 The following tree shows the file structure of this corpus:
 ```
 ├───cross-validation-testset
