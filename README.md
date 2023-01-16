@@ -61,11 +61,11 @@ limits on handling multiple possible phrase breaks, we compare the confusion mat
 - confusion matrix of Against-TTS on overall assessment\
   ![Against-TTS on overall](/resource/con_matrix_1.png)
 - confusion matrix of #Break-BERT on overall assessment
-  ![#Break-BERT on overall](resource/con_matrix_2.png)
+  ![#Break-BERT on overall](/resource/con_matrix_2.png)
 - confusion matrix of Against-TTS on fine-grained assessment
-  ![Against-TTS on fine-grained](resource/con_matrix_3.png)
+  ![Against-TTS on fine-grained](/resource/con_matrix_3.png)
 - confusion matrix of #Break-BERT on fine-grained assessment
-  ![#Break-BERT on fine-grained](resource/con_matrix_4.png)
+  ![#Break-BERT on fine-grained](/resource/con_matrix_4.png)
 ## Data structure
 The following tree shows the file structure of this corpus:
 ```

@@ -1,1 +1,0 @@
-python3 train.py --model_name Break-Bert --trainset_path ../../dataset_for_Break-BERT/train_set.csv --devset_path ../../dataset_for_Break-BERT/dev_set.csv --res_path ../../train
