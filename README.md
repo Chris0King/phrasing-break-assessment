@@ -110,9 +110,4 @@ The `resource` folder contains the scores from three linguists label A, B and C 
 The `cross-validation-testset` folder contains trainset, devset and testset in fine-tune step.
 
 ## Citation
-Please cite our paper if you find this work useful:
-
-```
-...
-```
-
+To be added.
