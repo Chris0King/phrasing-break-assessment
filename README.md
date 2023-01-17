@@ -59,12 +59,16 @@ To verified Against-TTS approach’s
 limits on handling multiple possible phrase breaks, we compare the confusion matrix of Against-TTS and #Break-BERT on overall assessment and fine-grained assessment.
 
 - confusion matrix of Against-TTS on overall assessment\
+  
   ![Against-TTS on overall](/resource/con-matrix1.png)
 - confusion matrix of #Break-BERT on overall assessment
+  
   ![#Break-BERT on overall](/resource/con-matrix2.png)
 - confusion matrix of Against-TTS on fine-grained assessment
+  
   ![Against-TTS on fine-grained](/resource/con-matrix3.png)
 - confusion matrix of #Break-BERT on fine-grained assessment
+  
   ![#Break-BERT on fine-grained](/resource/con-matrix4.png)
 ## Data structure
 The following tree shows the file structure of this corpus:
