@@ -1,7 +1,8 @@
 # A non-native English corpus for phrasing-break-assessment
 ## Introduction
 This corpus aims to provide a free public dataset for the phrasing break assessment task. we collected 800 audio samples from Chinese ESL learners. Then two linguists are invited to assess them with overall performance on phrasing break and each individual phrasing break ranging from 1 (Poor), 2 (Fair), and 3 (Great). If two experts' opinions are inconsistent, an extra linguist is asked to do the final scoring. 
-
+## Annotator Recruitment Requirement
+Our annotation data are from [Speech Ocean](https://en.speechocean.com/), which selected the teachers with rich teaching experience to label the data.
 ## The scoring metric
 The linguists score at two levels: overall-sentence-level and single-break-level. It is worth mentioning that the scoring ignores the words pronouncing accuracy.
 
@@ -52,24 +53,8 @@ We collected 800 utterances of 19 different sentences of various lengths, and th
 | 17    | Then the old woman became very angry at the cat and began to hit her for she had not killed the mouse.                      | 30  |
 | 18    | Until the fox thought highly of the crow's beautiful voice, the crow felt quite proud and finally opened his mouth to sing. | 36  |
 | 19    | "Dad!" he puffed, "is it true that an apple a day keeps the doctor away?"                                                   | 41  |
-| total | 800                                                                                                                         |
+| total |                                                                                                                             | 800 |
 
-### Confusion Matrix
-To verified Against-TTS approach’s
-limits on handling multiple possible phrase breaks, we compare the confusion matrix of Against-TTS and #Break-BERT on overall assessment and fine-grained assessment.
-
-- confusion matrix of Against-TTS on overall assessment
-  
-  ![Against-TTS on overall](/resource/con-matrix1.png)
-- confusion matrix of #Break-BERT on overall assessment
-  
-  ![#Break-BERT on overall](/resource/con-matrix2.png)
-- confusion matrix of Against-TTS on fine-grained assessment
-  
-  ![Against-TTS on fine-grained](/resource/con-matrix3.png)
-- confusion matrix of #Break-BERT on fine-grained assessment
-  
-  ![#Break-BERT on fine-grained](/resource/con-matrix4.png)
 ## Data structure
 The following tree shows the file structure of this corpus:
 ```
