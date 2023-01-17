@@ -2,7 +2,7 @@
 ## Introduction
 This corpus aims to provide a free public dataset for the phrasing break assessment task. we collected 800 audio samples from Chinese ESL learners. Then two linguists are invited to assess them with overall performance on phrasing break and each individual phrasing break ranging from 1 (Poor), 2 (Fair), and 3 (Great). If two experts' opinions are inconsistent, an extra linguist is asked to do the final scoring. 
 ## Annotator Recruitment Requirement
-Our annotation data are from [Speech Ocean](https://en.speechocean.com/), which selected the teachers with rich teaching experience to label the data.
+[Speech Ocean](https://en.speechocean.com/) has assisted us in the labeling work, which selected the teachers with rich teaching experience to annotate the data.
 ## The scoring metric
 The linguists score at two levels: overall-sentence-level and single-break-level. It is worth mentioning that the scoring ignores the words pronouncing accuracy.
 
