@@ -58,7 +58,7 @@ We collected 800 utterances of 19 different sentences of various lengths, and th
 To verified Against-TTS approach’s
 limits on handling multiple possible phrase breaks, we compare the confusion matrix of Against-TTS and #Break-BERT on overall assessment and fine-grained assessment.
 
-- confusion matrix of Against-TTS on overall assessment\
+- confusion matrix of Against-TTS on overall assessment
   
   ![Against-TTS on overall](/resource/con-matrix1.png)
 - confusion matrix of #Break-BERT on overall assessment
