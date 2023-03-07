@@ -79,23 +79,36 @@ The following tree shows the file structure of this corpus:
 │   │       coarse_grain_trainset_3.csv
 │   │       coarse_grain_trainset_4.csv
 │   │
-│   └───fine_grain_set
-│           fine_grain_testset_0.csv
-│           fine_grain_testset_1.csv
-│           fine_grain_testset_2.csv
-│           fine_grain_testset_3.csv
-│           fine_grain_testset_4.csv
-│           fine_grain_devset_0.csv
-│           fine_grain_devset_1.csv
-│           fine_grain_devset_2.csv
-│           fine_grain_devset_3.csv
-│           fine_grain_devset_4.csv
-│           fine_grain_trainset_0.csv
-│           fine_grain_trainset_1.csv
-│           fine_grain_trainset_2.csv
-│           fine_grain_trainset_3.csv
-│           fine_grain_trainset_4.csv
-│
+│   ├───fine_grain_set
+│   │       fine_grain_devset_0.csv
+│   │       fine_grain_devset_1.csv
+│   │       fine_grain_devset_2.csv
+│   │       fine_grain_devset_3.csv
+│   │       fine_grain_devset_4.csv
+│   │       fine_grain_testset_0.csv
+│   │       fine_grain_testset_1.csv
+│   │       fine_grain_testset_2.csv
+│   │       fine_grain_testset_3.csv
+│   │       fine_grain_testset_4.csv
+│   │       fine_grain_trainset_0.csv
+│   │       fine_grain_trainset_1.csv
+│   │       fine_grain_trainset_2.csv
+│   │       fine_grain_trainset_3.csv
+│   │       fine_grain_trainset_4.csv
+│   │
+│   └───gpt
+│       │   testset_0.csv
+│       │   testset_1.csv
+│       │   testset_2.csv
+│       │   testset_3.csv
+│       │   testset_4.csv
+│       │   trainset_0.csv
+│       │   trainset_1.csv
+│       │   trainset_2.csv
+│       │   trainset_3.csv
+│       │   trainset_4.csv
+│       │   prompts.md
+│       └───res
 ├───resource
 │   ├───A-res_form
 │   ├───B-res_form
@@ -107,7 +120,4 @@ The `wavs` folder contains our all wavs resource and match the `metadata.csv`.
 
 The `resource` folder contains the scores from three linguists label A, B and C according to three subfolders. A and B are invited to assess them. If two experts' opinions are inconsistent, an extra linguist C is asked to do the final scoring.
 
-The `cross-validation-testset` folder contains trainset, devset and testset in fine-tune step.
-
-## Citation
-To be added.
+The `cross-validation-testset` folder contains trainset, devset and testset in fine-tune step and chatgpt scenario. In the gpt testset, columns `gpt_score` and `unexcept_break` represent the responses of chatgpt in zero-shot learning senario. Columns `few-shot-score` and `few-shot-unexcept_break` represent the responses of chatgpt in few-shot learning senario.
